@@ -1,0 +1,37 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# LangChain ecosystem
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langchain-anthropic==0.3.4
+langchain-openai==0.2.14
+langchain-weaviate==0.0.3
+langgraph==0.2.60
+
+# Vector store
+weaviate-client==4.10.2
+
+# AI providers
+anthropic==0.40.0
+openai==1.58.1
+
+# NLP & text processing
+tiktoken==0.8.0
+emoji==2.14.0
+langdetect==1.0.9
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.0
+python-dateutil==2.9.0
+
+# Utilities
+aiofiles==24.1.0
+httpx==0.28.1
+tenacity==9.0.0
